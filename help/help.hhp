@@ -1,0 +1,41 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=help.chm
+Contents file=help.hhc
+Default topic=welcome.html
+Display compile progress=No
+Index file=help.hhk
+Language=0x804 中文(中国)
+
+
+[FILES]
+add_ques.html
+blank.html
+essay.html
+faq.html
+hotspot.html
+match.html
+multi.html
+param_set.html
+player.html
+player_color.html
+player_set.html
+player_text.html
+preview.html
+properties.html
+publish.html
+publish_lms.html
+publish_web.html
+publish_word.html
+quiz_info.html
+quiz_protect.html
+quiz_result.html
+quiz_set.html
+results.html
+seque.html
+single.html
+true_false.html
+welcome.html
+
+[INFOTYPES]
+

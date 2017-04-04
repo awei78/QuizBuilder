@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="style.css">
+<title>试题发布 - 导出Excel</title>
+</head>
+
+<body background="images/bg.gif">
+<table width="95%" height="1110" border="0" cellpadding="0" cellspacing="0" style="margin-left:5px">
+  <tr>
+    <td class="title" height="43">试题发布 - 导出Excel<hr color="#7F9DB9" size="1"></td>
+  </tr>
+  <tr class="body">
+    <td height="1067">
+      &nbsp;&nbsp;&nbsp; <font color="#FF6600">Excel发布模式结果页面如下图所示：</font><br>
+      &nbsp;&nbsp;&nbsp;
+      <img src="images/publish_excel.bmp" width="469" height="314"><br><br>
+&nbsp;&nbsp;&nbsp; 此种模式，试题大师将在指定位置生成一个设定文件名的xls格式的Excel文档。<br>
+      &nbsp;
+      &nbsp; <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>路径设置</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 文件名：您可以设定所要输出的文件名，默认为当前工程名。需要注意的是，它不支持非法的文件名字符如<font color="#FF6600">*</font>、<font color="#FF6600">?</font>、<font color="#FF6600">&lt;</font>、<font color="#FF6600">&gt;</font>等。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 位置：此处设置您要输出文件的位置，它会记录最后一次设定的位置，作为新建试题的初始设置。<br>
+      <br>
+&nbsp;&nbsp;&nbsp; <font color="#FF6600">
+      特别提示：导出的Excel是以指定格式导出的，每一个试题生成一行记录，而每个题型的记录又不尽相同，如下所示：</font><br>
+&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/excel.bmp" width="768" height="553"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 文档的
+      第1列是试题的题目，第2列是题型，第3列是分值，第4列以后是答案。而答案根据题型不同，其格式也不相同，如下说明：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 判断题、单选题、多选题：正确答案的格式是<font color="#FF6600">True=</font>加上正确答案，错误答案则是答案本身；<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 填空题：其答案列为每个可接受答案；<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 匹配题：其格式为<font color="#FF6600">选项=匹配项</font>，每项目占一列；<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 排序题：其答案列为正确的答案列表；<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      热区题：第4列为热区图片路径，第5列为热区的左边距，第6列为热区上边距，第7列为热区宽度，第8列为热区高度，以象素为单位。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 简答题：其只有一个答案列第4列，为参考答案。<br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在试题大师的[<font color="#FF6600">从Excel导入...</font>]功能中，所需要的试题Excel文档格式与导出的类似，其在题型及分值列又灵活一些。其中题型可接受两种格式如<font color="#FF6600">&quot;判断题&quot;</font>或<font color="#FF6600">&quot;判断&quot;</font>等；分值列可接受的两种格式如<font color="#FF6600">&quot;10分&quot;</font>或<font color="#FF6600">&quot;10&quot;</font>等。
+      导入的试题数量最多只能500题，且题及答案列数不超过12列。</td>
+  </tr>
+</table>
+<script language="javascript" src="copyright.js"></script>
+</body>
+
+</html>

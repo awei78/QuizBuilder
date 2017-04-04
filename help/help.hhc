@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="欢迎使用">
+		<param name="Local" value="welcome.html">
+		<param name="ImageNumber" value="27">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="属性设置">
+		<param name="Local" value="properties.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="试题信息">
+			<param name="Local" value="quiz_info.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="试题设置">
+			<param name="Local" value="quiz_set.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="结果设置">
+			<param name="Local" value="quiz_result.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="试题保护">
+			<param name="Local" value="quiz_protect.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="添加试题">
+		<param name="Local" value="add_ques.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="判断题">
+			<param name="Local" value="true_false.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="单选题">
+			<param name="Local" value="single.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="多选题">
+			<param name="Local" value="multi.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="填空题">
+			<param name="Local" value="blank.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="匹配题">
+			<param name="Local" value="match.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="排序题">
+			<param name="Local" value="seque.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="热区题">
+			<param name="Local" value="hotspot.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="简答题">
+			<param name="Local" value="essay.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="场景页">
+			<param name="Local" value="scene.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="播放器">
+		<param name="Local" value="player.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="播放器设置">
+			<param name="Local" value="player_set.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="颜色设置">
+			<param name="Local" value="player_color.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="声音设置">
+			<param name="Local" value="player_sound.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="作者&amp;水印">
+			<param name="Local" value="player_author.html">
+			<param name="URL" value="author.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="字符串设置">
+			<param name="Local" value="player_text.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="参数设置">
+		<param name="Local" value="param_set.html">
+		<param name="ImageNumber" value="41">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="试题预览">
+		<param name="Local" value="preview.html">
+		<param name="ImageNumber" value="33">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="试题发布">
+		<param name="Local" value="publish.html">
+		<param name="ImageNumber" value="6">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="网页模式">
+			<param name="Local" value="publish_web.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LMS模式">
+			<param name="Local" value="publish_lms.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="导出Word">
+			<param name="Local" value="publish_word.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="导出Excel">
+			<param name="Local" value="publish_excel.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="生成EXE">
+			<param name="Local" value="publish_exe.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="结果收集">
+		<param name="Local" value="results.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="网络数据库">
+			<param name="Local" value="data_collect.html">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="邮件接收">
+			<param name="Local" value="mail.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="常见问题解答">
+		<param name="Local" value="faq.html">
+		<param name="ImageNumber" value="17">
+		</OBJECT>
+</UL>
+</BODY></HTML>

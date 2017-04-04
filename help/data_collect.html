@@ -1,0 +1,101 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="style.css">
+<title>数据收集 - 网络数据库</title>
+</head>
+
+<body background="images/bg.gif">
+<table width="95%" height="336" border="0" cellpadding="0" cellspacing="0" style="margin-left:5px">
+  <tr>
+    <td class="title">数据收集 - 网络数据库<hr color="#7F9DB9" size="1"></td>
+  </tr>
+  <tr class="body">
+    <td height="66">
+      &nbsp;&nbsp;&nbsp; <font color="#FF6600">网络数据库接收设置部分如下图所示：</font><br>
+      &nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/data.bmp" width="439" height="36"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      其中参数所所表示意义，在<a href="properties.html">属性设置</a>-&gt;<a href="quiz_result.html">结果设置</a>里已叙述过，这里说明一下其工作流程。<br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当您勾选<font color="#FF6600">[发送到网络数据库]</font>选项时，你就使用了试题大师所提供的测试结果网络数据库接收功能。需要注意的是，数据接收的两个选项，手动模式与自动模式。<br>
+      &nbsp;&nbsp;&nbsp;
+      <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>手动模式<br>
+      </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当您选择了<font color="#FF6600">[手动]</font>模式，请确保在<a href="player.html">播放器</a>的<a href="player_set.html">播放器设置</a>中勾选<font color="#FF6600">[</font><font color="#ff6600">数据发送</font><font color="#FF6600">]</font>及其上级，这样测试者在做完测试题后，会在工具栏右上角显示一个数据发送按钮，如下图示；点击它后会执行测试数据发送到网络的操作，试题会根据是否发送成功，会给出相应提示；其结果可能如下图所示：<br>
+&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/data_btn.bmp" width="263" height="56">&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/data_succ.bmp" width="326" height="161"><br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+      <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>自动模式<br>
+      </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 而您若是选择了<font color="#FF6600">[自动]</font>模式测试者做完试题后，试题会自动向您设定的数据接收网址发送测试结果数据。它不会显示发送按钮，也不论是否发送成功，均不会给测试者任何提示。<br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>工作原理</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      网络数据接收用到了Web数据库系统。其原理为测试者做完题后，若有数据提交操作，则测试结果被发送到数据接收页面，此页面对试题所发送的数据进行分析归类，存于对应的数据中，因此此功能需要测试者做题时电脑能联上网，推荐把试题发布在Web网页上给测试者做题。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      此功能所用到的是Web数据库系统，在试题大师安装目录下的samples下面，有asp及php的例子，您若是有条件，可以参照它来搭建您自己的数据收集系统，此系统支持测试结果的收集
+      与管理、统计、管理员信息及测试者帐号修改等功能，也支持<a href="properties.html">属性设置</a>-&gt;<a href="quiz_protect.html">试题保护</a>的<font color="#FF6600">[密码保护]</font>之<font color="#FF6600">[网页验证]</font>功能。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FF6600">
+      提示：若您没有搭建自己的数据收集系统，可用[<a href="http://www.awindsoft.net/qms/">http://www.awindsoft.net/qms/</a>]来实现此功能
+      ；若您是试题大师注册用户，可用注册邮件+注册码登录。<br>
+      <br>
+      </font>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>结果显示</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      对此功能，我们设计有asp及php接收两个例子，请在试题大师安装目录下的samples文件夹下找到它们；下面对其工作原理及数据结果显示进行说明。<br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1．登录页面<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 其截图如下所示：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/login.bmp" width="450" height="127"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这里有两种可能的帐号：系统管理员、管理员，而<font color="#FF6600">[浏览]</font>功能是给试用者提供的功能，其间差别如下：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FF6600">&nbsp; 系统管理员：</font>系统中唯一的系统管理员，其帐号为admin，初始密码为123456，它拥有系统的全部权限。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FF6600">管理员：</font>每个试题大师的注册帐号，都是一个初始的管理员帐号。若您已是试题大师的注册用户，且已使用了网络数据收集功能，则当测试者有信息传入数据收集系统时，您就可以以注册帐号登录系统。一个管理员账号，只能看到本管理员所出题的测试结果信息，只能修改自己的管理员密码，管理属于自己出的题的用户信息。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FF6600">浏览功能：</font>此功能只提供浏览测试结果功能。这里能看到的测试结果，只有试题大师未注册版测试者所提交的数据，这些数据是不受保护的。<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      2． 导航页面<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如上所述，对应系统管理员、管理员<font color="#FF6600">、[浏览]</font>功能，其导航页面也不尽相同，如下图示：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/g_sys.bmp" width="133" height="182">（导航：系统管理员）&nbsp; 
+      <img border="0" src="images/g_admin.bmp" width="133" height="172">（导航：管理员）&nbsp; 
+      <img border="0" src="images/g_test.bmp" width="133" height="102">（导航：浏览功能）<br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3． 数据收集主页<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      此页面是进入系统的默认显示页，以最新提交的测试数据降序排列，管理员可在这里对其进行查看、删除等操作；下面截图是管理员身份进入系统之页面：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/quiz.bmp" width="559" height="148"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      若您点击标题，可以看到类似如下图片之信息，它详细地列出了当前记录每题的答题情况：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/show.bmp" width="617" height="393"><br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4． 图表显示<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      管理系统一个特色功能，就是能以图表显示某个管理员下指定试题或者指定用户的通过与非通过之比例。此功能因为用到了VML技术，所以只在IE内核的浏览器上显示，而其它浏览如Firefox、Opera等，则不支持。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/stat.bmp" width="605" height="402"><br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5． 用户管理<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      管理员可在此对属于当前管理的测试帐号进行管理。每当一个测试者提交一份测试数据时，若其做题时输入的帐号不为空且数据库中没有此用户帐号，则系统会自动加入一条用户数据，并初始化密码为654321。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 此处需要特别说明的是，启用检测这个功能，它对应于<a href="properties.html">属性设置</a>-&gt;<a href="quiz_protect.html">试题保护</a>的<font color="#FF6600">[密码保护]</font>之<font color="#FF6600">[网页验证]</font>功能。若帐号
+      的启用检测处于开启状态，它会以桔黄色字体显示<font color="#FF6600">[禁用]</font>字样，您可以点击它
+      来禁用当前帐号的网络检测功能；反之其显示<font color="#008000">[启用]</font>字样。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      此处，您可以添加帐号，以用在网络检测功能中。管理系统暂未开通测试者账号登入系统查看数据之功能。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在asp或php的sample的check.asp及check.php中，加有注释，让您可以实现对指定的测试者及试题ID实现<font color="#FF6600">[只做一次]</font>的功能。此功能需要试题大师v1.2.0.6及以上之版本支持。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/users.bmp" width="595" height="285"><br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6． php例子<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; php的例子与asp例子相比，因为它使用的是MySQL数据库，通常都会用phpMyAdmin这个开源系统管理数据库，所以没有<font color="#FF6600">[数据库管理]</font>这个功能。<br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 此处，截取了数据收集管理系统部分功能进行说明；其所有功能，请登录[<a href="http://www.awindsoft.net/qms/">http://www.awindsoft.net/qms/</a>]以使用。</td>
+  </tr>
+</table>
+<script language="javascript" src="copyright.js"></script>
+</body>
+
+</html>

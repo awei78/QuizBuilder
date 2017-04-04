@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<quiz version="1.1.5.4">
+	<properties>
+		<topic><![CDATA[中国地理知识测试]]></topic>
+		<ID>Q002</ID>
+		<quizInfo enabled="true">
+			<info><![CDATA[此测试可以测试一些您对中国一些省会城市的了解度。]]></info>
+			<image>F:\My Documents\My Pictures\cc.jpg</image>
+			<showName>true</showName>
+			<showMail>true</showMail>
+			<blankName>false</blankName>
+		</quizInfo>
+		<quizSet>
+			<submitType>0</submitType>
+			<passRate>60</passRate>
+			<timeSet enabled="true">
+				<minutes>5</minutes>
+				<seconds>0</seconds>
+			</timeSet>
+			<rndQues enabled="false">
+				<count>0</count>
+				<runTime>false</runTime>
+			</rndQues>
+			<rndAnswer>true</rndAnswer>
+			<showAnswer>true</showAnswer>
+			<viewQuiz>true</viewQuiz>
+		</quizSet>
+		<resultSet>
+			<passSet enabled="true">
+				<passInfo><![CDATA[恭喜，您通过了]]></passInfo>
+				<failInfo><![CDATA[您没有通过]]></failInfo>
+			</passSet>
+			<postSet enabled="true">
+				<url>http://www.awindsoft.net/qms/receive.asp</url>
+				<type>0</type>
+			</postSet>
+			<mailSet enabled="true">
+				<mailAddr>awind@awindsoft.net</mailAddr>
+				<mailUrl>http://www.awindsoft.net/qms/mail.asp</mailUrl>
+				<type>0</type>
+			</mailSet>
+			<quitOper>
+				<passType>0</passType>
+				<passUrl>http://www.baidu.com</passUrl>
+				<failType>0</failType>
+				<failUrl>http://</failUrl>
+			</quitOper>
+		</resultSet>
+		<protectSet>
+			<pwdSet enabled="false">
+				<type>0</type>
+				<password>1234</password>
+				<url allow="false">http://www.awindsoft.net/qms/check.asp</url>
+			</pwdSet>
+			<urlLimit enabled="false">http://</urlLimit>
+			<dateLimit enabled="false">
+				<startDate>2008-8-17</startDate>
+				<endDate>2009-8-16</endDate>
+			</dateLimit>
+		</protectSet>
+	</properties>
+	<items>
+		<item id="1" type="0" points="10" attempts="1" level="1" image="F:\My Documents\My Pictures\zz27.jpg">
+			<topic><![CDATA[郑州是河南省的省会吗？]]></topic>
+			<answer><![CDATA[True=是
+False=否
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="2" type="1" points="10" attempts="1" level="2" image="F:\My Documents\My Pictures\bdlg.jpg">
+			<topic><![CDATA[西藏的省会城市是：]]></topic>
+			<answer><![CDATA[False=兰州
+True=拉萨
+False=昆明
+False=济南
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="3" type="2" points="10" attempts="1" level="2" image="">
+			<topic><![CDATA[下面的城市中，哪些属于省会城市？]]></topic>
+			<answer><![CDATA[False=深圳
+True=广州
+False=青岛
+True=长春
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="4" type="3" points="10" attempts="1" level="2" image="F:\My Documents\My Pictures\hhht.bmp">
+			<topic><![CDATA[内蒙古自治区的省会城市是__________]]></topic>
+			<answer><![CDATA[呼和浩特
+
+
+
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="5" type="4" points="10" attempts="1" level="3" image="">
+			<topic><![CDATA[请将各省与它们的省会城市对应：]]></topic>
+			<answer><![CDATA[河南=郑州
+江苏=南京
+黑龙江=哈尔滨
+吉林=长春
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="6" type="5" points="10" attempts="1" level="2" image="F:\My Documents\My Pictures\dfmz.jpg">
+			<topic><![CDATA[下列城市中，请依从北向南的地理位置排列：]]></topic>
+			<answer><![CDATA[北京
+上海
+广州
+海口
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="7" type="7" points="0" attempts="0" level="5" image="">
+			<topic><![CDATA[省会城市是什么，起什么作用？]]></topic>
+			<answer><![CDATA[     省会，或称省治、制所，为省的行政中心即政府驻地。省会为政治、经济、文化中心, 自治区的行政驻地通常称首府，有时也被称为省会，直辖市和特别行政区不称省会，直接称为政府所在地、驻堰或制所
+]]></answer>
+			<feedBack enabled="false">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="8" type="6" points="10" attempts="1" level="0" image="">
+			<topic><![CDATA[请指出图中鸟巢的位置：]]></topic>
+			<answer hpos="0" vpos="0" left="148" top="44" width="94" height="38" fit="true"><![CDATA[F:\My Documents\My Pictures\nj.JPG]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="9" type="1" points="10" attempts="1" level="2" image="F:\My Documents\My Pictures\dw.jpg">
+			<topic><![CDATA[右图中的建筑物，属于下列哪个城市？]]></topic>
+			<answer><![CDATA[False=北京
+False=上海
+True=深圳
+False=广州
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了
+此为深圳的地王大厦]]></crtInfo>
+				<errInfo><![CDATA[您答错了
+此为深圳的地王大厦]]></errInfo>
+			</feedBack>
+		</item>
+	</items>
+</quiz>

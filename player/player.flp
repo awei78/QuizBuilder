@@ -1,0 +1,11 @@
+﻿<flash_project name="player" version="1">
+    <project_file path="./player.fla" filetype="fla" profile="" def_file="true" />
+    <project_file path="./Time.as" filetype="as" />
+    <project_file path="./quiz.as" filetype="as" />
+    <project_file path="./MsgBox.as" filetype="as" />
+    <project_file path="./AboutBox.as" filetype="as" />
+    <project_file path="./SoundEx.as" filetype="as" />
+    <project_file path="./Mail.as" filetype="as" />
+    <project_file path="./Data.as" filetype="as" />
+    <project_file path="./LMS.as" filetype="as" />
+</flash_project>

@@ -1,0 +1,121 @@
+字体加到32号(测试发现大于24号就会有严重的偏移，就保持为当前最大24号)；生成的Flash在显示目录列表时，有时会有一个闪动阴影
+
+1、加入理科公司编辑
+2、插入图片能随文件打包
+3、文字大一点，版面可以随窗口放缩
+4、一个版面可以设置几个题目
+
+----
+发布模式加一个：导出为exe文件(可不予考虑)
+----
+
+我觉得你的网络数据库应该还要做个平均分  及格率  优良率 正答率几个数据统计功能才完善
+另外就是要有一个试卷“总分‘功能 不然怎么统计平均分 分析成绩呢
+
+
+股牛 10:07:37
+WonderShare的QuizCreator
+
+
+关于对秋风试题大师软件改进的建议……(以下建议，因为与随机出题及抽题冲突，试题大题不打算实现；是否可以另做一个软件？)
+
+
+一、题型的增加
+    目前八类题型，相对来说还不够完全，我仅就我熟悉的英语高考类试卷进行一个分析：
+
+    1、完型填空  示例
+————————————————————————————————————
+    二、完形填空（共15小题，计15分）
+    通读下面短文，掌握其大意，然后在各题所给的四个选项（A、B、C和D）中选出一个最佳选项。
+    Hundreds of years ago, life was much harder than it is today. People didn’t have modern machines. There was no modern medicine,  1  . 
+    Life today has  2  new problems. One of the biggest is  3  . Water pollution has made our rivers and lakes dirty. It kills our  4  and polluted our drinking water.  5  pollution makes us talk louder and become  6  more easily. Air pollution is the most serious kind of pollution. It’s bad to all living things in the world.
+    1. A. too   B. also    C. yet    D. either
+    2. A. bought   B. sent   C. brought   D. given
+    3. A. pollution   B. protection   C. population   D. environment
+    4. A. dogs   B. fish   D. plants   D. animals
+    5. A. Food   B. Air   C. Noise   D. Car
+    6. A. happy   B. worried   C. excited   D. angry
+———————————————————————————————————————
+    该题型类似于单项选择题，但应该是在完形填空这一大题型下有10-15个单选的子题。
+     建议可以上方显示整篇文章，下方以列表的形式列出10-15题个单选题的选项，考生全部完成后统一提交。
+
+    2、阅读理解  示例
+————————————————————————————————
+A
+    Traveling can be a fun way to get life experiences, especially a week long school holiday in the United States. But what will you do if you’re a student and don’t have enough money for a trip? Don’t worry. Here are some useful tips.
+    Save: This may be the most important preparation for traveling. Cut expenses and save money so you’ll have more choices about where to go and how to get there.
+    Plan ahead: Don’t wait until the last minute to plan your trip. Tickets may cost more when bought in a hurry. Giving yourself several months to get ready can mean security and savings.
+    1. Before your trip, the first thing you should do is ______ .
+       A. to decide where to go             B. to get information on the Internet
+       C. to cut expenses and save money     D. to buy tickets in advance
+    2. The writer advises you ______ .
+       A. to share costs with any other people    B. not to go to well-known places
+       C. not to visit dangerous places          D. to buy anything you want to buy
+———————————————————————————————————
+    该题型也类似于单项选择题，但应该是在阅读理解这一大题型下有A、B、C、D、E等几篇文章，每篇文章下有5个左右单选的子题。
+    建议以ABCDE每篇文章为一大题，上方显示是整篇文章，下方以列表的形式列出5个单选题的选项，考生全部完成后统一提交。
+
+    3、词语填空  示例
+——————————————————————————————————————————————
+    四、词语填空（共10小题，计10分）
+    用方框中所给单词的适当形式填空，使短文通顺、正确、连贯（每个单词限用一次）。
+not, help, waste, use, page, dirt, family, side, they, send
+    There are many ways for us to reduce（减少） waste. For example, we can  1  paper and plastic bags. We can also recycle newspapers, glass, and cans to make new things. Here are some useful ways to reduce waste.
+    Write on both  2  of paper.
+——————————————————————————————————————————————
+    该题型类似于填空题，但一般每篇文章有10空，相当于一个题下有10个子填空题。
+    
+
+    4、短文改错  示例
+——————————————————————————————————————————————
+    六、短文改错（共10小题；每小题1分，满分10分）
+    Several days ago, three lions escaped the zoo due to	        1. ______
+the careless of one of the keepers. Two of the lions headed for	        2. ______  
+to a nearby grass field where they were immediately caught by their	3. ______ 
+trainer. The third one, however, went into the town and while he saw    4. _______  
+an open window on the first floor of a private home, he jumped	        5. ______
+into. Inside, he found an elderly lady whose eyesight was failing.  	6. ______
+She thought the animal was a large dog and patted it on his head.	7. ______
+The wild beast paid no attention to him and went into the bedroom	8.______
+where he fell asleep on the mat. It was there where the trainer found 	9.______
+the lion. He put him in a cage and carried him back quiet to the zoo.  10.______
+
+参考答案 1.escaped后加from 2.careless→carelessness 3.去掉to   4. while→ when  5. √    6. into→ in  7.his→ the  8.him→ her   9.第二个where→ that	10.quiet→ quietly
+
+——————————————————————————————————————————————
+    该题型比较复杂，因为每个人对于答案的表述不完全一样，但也许都对。
+
+
+二、英语考试有听力部分，如果能在听力时插入对音频的支持，就好了。
+
+三、一般的考试题目均有中文的题干来说明什么题型，接下来是题目，再是答案，分成三块内容。
+
+四、试题录入的编辑器比较简单,对于表格、图形之类能否增加支持   英语中有些会是填表题
+
+五、一份试题是完整的一个整体，答题时间上不需要设置单题答题时间，而设置一个整体答题时间，等全部答完最后提交统计分数。尝试次数可以设置0选项，代表无限次，在提交前可以反复修改。
+
+
+最后建议你看一下  考易电子试卷制作系统  他在题型上比较丰富.更适合
+
+一点拙见.
+
+====
+天昊  (2009-02-22 10:33:04)
+试题大师有计算错误的问题：设置6题，每题0.5分，总分是3分，通过分数按60%计算的话是1.8分，测试得分如果全对的话，应该是3分，可是显示的却是3.5分。请大师好好试试，这是软件的低级错误。
+   天昊  (2009-02-22 12:54:53)
+插入的声音如果时间过长，就播放不完整，在中间停下来，不知道是怎么回事。
+   天昊  (2009-02-22 10:42:51)
+直接复制单选题时，原始带的声音连接复制不进去，必须手动再添加
+
+====
+秋风大师，你好：你的试题大师有一个bug，尽管你不做这个了，还请你抽空帮我修正一下，好吗？就是在试题提交之后，得出一个结果，在“试题总数”统计上，把“场景页”也算作试题了，请检查修正一下。谢谢。
+
+====
+  安全提示：腾讯公司提醒您警惕“QQ中奖”骗局。
+
+圝喜洋洋圝 2009-04-26 23:01:24
+秋风大师你好
+圝喜洋洋圝 2009-04-26 23:02:26
+你可能最近很忙吧,都忘记给我改一下软件了.
+圝喜洋洋圝 2009-04-26 23:10:35
+我现将问题讲一下:就是希望能将"场景页"和"简介里"的字体改成自由变大小.(如果能在"场景页"加上字体颜色调节,哪就更好.)希望你能有空帮我改一下,因为星期二就要用到你的软件上公开课.谢谢.

@@ -1,0 +1,4 @@
+loader SWF ..\player\loader.swf
+player SWF ..\player\player.swf
+templet SWF ..\templet\templet.swf
+aplayer EXE ..\viewer_p\AWPlayer.exe

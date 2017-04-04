@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="Keywords" content="秋风软件, 试题大师, 秋风试题大师, 秋风人事档案管理系统, E-Learning, SCORM">
+<title>秋风试题大师数据管理系统 - 用户登录</title>
+<script type="text/javascript">
+<!--
+	function trim(s)	{
+		for(var i = 0; i < s.length && s.charAt(i) == " "; i++);
+		for(var j = s.length; j > 0 && s.charAt(j - 1) == " "; j--);
+		
+		return (i > j) ? "" : s.substring(i, j); 
+	}
+
+  function checkData() {
+    if (trim(document.getElementById("userId").value) == "") {
+      document.getElementById("info").innerHTML = "<font color=\"#FF0000\">请输入登录帐号</font>";
+      document.getElementById("userId").focus();
+      return false;
+    }
+    
+    return true;
+  }
+-->
+</script>
+</head>
+
+<body onLoad="javascript: document.all('userId').focus()" background="images/bg.gif"> 
+<center> 
+  <table border="0" width="90%" style="border-collapse: collapse" cellpadding="0" cellspacing="0"> 
+    <tr> 
+      <td width="25%" align="left" valign="top"> <img border="0" src="images/tl.gif" width="82" height="79"></td> 
+      <td>        
+        <table width="450"  border="0" cellspacing="0" cellpadding="0"> 
+          <tr> 
+            <td width="5%" bgcolor="#366E9F"></td> 
+            <td width="5%" bgcolor="#4D9ACD"></td> 
+            <td width="5%" bgcolor="#65CAFE"></td> 
+            <td width="70%" align="center"><b> 
+            <font color="#366E9F" size="4" face="幼圆">用户登录</font></b></td> 
+            <td width="5%" bgcolor="#65CAFE"></td> 
+            <td width="5%" bgcolor="#4D9ACD"></td> 
+            <td width="5%" bgcolor="#366E9F"></td> 
+          </tr> 
+        </table> 
+      </td> 
+      <td width="25%" align="right" valign="top"> <img border="0" src="images/tr.gif" width="82" height="79"></td> 
+    </tr> 
+    <tr> 
+      <td width="25%" align="left" valign="top">　</td> 
+      <td> 
+        <table border="1" width="450" bordercolor="#7F9DB9" style="border-collapse: collapse"> 
+          <form name="frmLogin" method="POST" action="login.php?act=login" onSubmit="javascript: return checkData()" onReset="javascript: document.all('info').innerHTML = ''; this.userId.focus()"> 
+            <tr> 
+              <td width="25%" align="right">帐 号：</td> 
+              <td width="75%">
+              <input type="text" name="userId" id="userId" style="width: 173; height: 20" size="20">&nbsp; <label id="info"></label></td> 
+            </tr> 
+            <tr> 
+              <td width="25%" align="right">密 码：</td> 
+              <td width="75%">
+              <input type="password" name="userPwd" style="width: 173; height: 20" size="20"></td> 
+            </tr> 
+            <tr> 
+              <td width="25%"></td> 
+              <td width="75%"> <input type="submit" value="登 录" name="btnLogin">&nbsp;
+                <input type="reset" value="重 置" name="btnReset">&nbsp;
+                <input type="button" value="浏 览" name="btnView" onClick="javascript: window.location.href='login.php?act=view'">
+              </td> 
+            </tr> 
+          </form> 
+        </table>
+      </td> 
+      <td width="25%" align="right" valign="top"> 　</td> 
+    </tr> 
+  </table> 
+</center> 
+</body>
+
+</html>

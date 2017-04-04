@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<quiz version="1.1.5.4">
+	<properties>
+		<topic><![CDATA[季节测试]]></topic>
+		<ID>Q001</ID>
+		<quizInfo enabled="true">
+			<info><![CDATA[关于季节知识的一个测试]]></info>
+			<image></image>
+			<showName>true</showName>
+			<showMail>true</showMail>
+			<blankName>true</blankName>
+		</quizInfo>
+		<quizSet>
+			<submitType>0</submitType>
+			<passRate>60</passRate>
+			<timeSet enabled="true">
+				<minutes>5</minutes>
+				<seconds>0</seconds>
+			</timeSet>
+			<rndQues enabled="false">
+				<count>2</count>
+				<runTime>false</runTime>
+			</rndQues>
+			<rndAnswer>true</rndAnswer>
+			<showAnswer>true</showAnswer>
+			<viewQuiz>true</viewQuiz>
+		</quizSet>
+		<resultSet>
+			<passSet enabled="true">
+				<passInfo><![CDATA[恭喜，您通过了]]></passInfo>
+				<failInfo><![CDATA[您没有通过]]></failInfo>
+			</passSet>
+			<postSet enabled="true">
+				<url>http://www.awindsoft.net/qms/receive.asp</url>
+				<type>0</type>
+			</postSet>
+			<mailSet enabled="true">
+				<mailAddr>a_wei@b.com</mailAddr>
+				<mailUrl>http://www.awindsoft.net/qms/mail.asp</mailUrl>
+				<type>0</type>
+			</mailSet>
+			<quitOper>
+				<passType>0</passType>
+				<passUrl>http://www.baidu.com</passUrl>
+				<failType>0</failType>
+				<failUrl>http://</failUrl>
+			</quitOper>
+		</resultSet>
+		<protectSet>
+			<pwdSet enabled="false">
+				<type>1</type>
+				<password></password>
+				<url allow="false">http://www.sameshow.com/quiz_samples/php/check.php</url>
+			</pwdSet>
+			<urlLimit enabled="false">http://www.baidu.com</urlLimit>
+			<dateLimit enabled="false">
+				<startDate>2008-8-15</startDate>
+				<endDate>2008-8-15</endDate>
+			</dateLimit>
+		</protectSet>
+	</properties>
+	<items>
+		<item id="1" type="1" points="10" attempts="1" level="2" image="F:\My Documents\My Pictures\Bliss.bmp">
+			<topic><![CDATA[你最喜欢哪个季节？
+春风，几度]]></topic>
+			<answer><![CDATA[False=春
+False=夏
+True=秋
+False=冬
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="2" type="0" points="10" attempts="1" level="2" image="">
+			<topic><![CDATA[你喜欢秋季吗？]]></topic>
+			<answer><![CDATA[True=是
+False=否
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="3" type="2" points="10" attempts="1" level="2" image="">
+			<topic><![CDATA[您最喜欢的两个季节是？]]></topic>
+			<answer><![CDATA[True=春季
+False=夏季
+True=秋季
+False=冬季
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="4" type="3" points="10" attempts="1" level="2" image="F:\Images\0009.jpg">
+			<topic><![CDATA[您最喜欢的季节？]]></topic>
+			<answer><![CDATA[春季
+秋季
+
+
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="5" type="4" points="10" attempts="1" level="2" image="">
+			<topic><![CDATA[请匹配对应的季节：]]></topic>
+			<answer><![CDATA[Spring=春
+Summer=夏
+Autumn=秋
+Winter=冬
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="6" type="5" points="10" attempts="1" level="2" image="F:\My Documents\My Pictures\ysh.jpg">
+			<topic><![CDATA[请排列季节顺序：]]></topic>
+			<answer><![CDATA[春
+夏
+秋
+冬
+]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="7" type="7" points="0" attempts="1" level="5" image="F:\My Documents\My Pictures\http_imgload.jpg">
+			<topic><![CDATA[四季是什么？]]></topic>
+			<answer><![CDATA[春夏秋冬
+]]></answer>
+			<feedBack enabled="false">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+		<item id="8" type="6" points="10" attempts="1" level="2" image="">
+			<topic><![CDATA[请选择那个月亮]]></topic>
+			<answer hpos="157" vpos="162" left="157" top="94" width="44" height="35" fit="false"><![CDATA[F:\Images\0066.jpg]]></answer>
+			<feedBack enabled="true">
+				<crtInfo><![CDATA[恭喜您，答对了]]></crtInfo>
+				<errInfo><![CDATA[您答错了]]></errInfo>
+			</feedBack>
+		</item>
+	</items>
+</quiz>

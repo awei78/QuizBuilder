@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="style.css">
+<title>属性设置 - 试题保护</title>
+</head>
+
+<body background="images/bg.gif">
+<table width="95%" height="336" border="0" cellpadding="0" cellspacing="0" style="margin-left:5px">
+  <tr>
+    <td class="title">属性设置 - 试题保护<hr color="#7F9DB9" size="1"></td>
+  </tr>
+  <tr class="body">
+    <td height="66">
+      &nbsp;&nbsp;&nbsp; <font color="#FF6600">试题保护页面如下图所示：</font><br>
+      &nbsp;&nbsp;&nbsp;
+      <img src="images/quiz_protect.bmp" width="486" height="361"><br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 此页面的设置是为了保护您所出的测试题的，具体作用如下所述：<br>
+      &nbsp;&nbsp;&nbsp;
+      <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>密码保护</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 此选项功能在于设置试题的密码保护。若其选定，则测试者做题时需要输入密码。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      密码验证：您可以在这里设定试题密码。做题时，试题开始会显示一个密码框，测试者需要输入出题人设定之密码才能继续。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 网页验证：您可以在这里设置帐号验证网页。做题时，会显示一个账号与密码框，测试者需要输入帐号与密码，输入的帐号与密码在点击<font color="#FF6600">[登录]</font>后
+      会被发送到此处设定的网页去验证，验证通过才可以继续做题。请参考<a href="data_collect.html">数据收集</a>部分对它的描述。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 允许测试者改变传入的用户帐号：此选项只在<font color="#FF6600">[网页验证]</font>方式下有用。当您选择<font color="#FF6600">[网页验证]</font>时，测试者输入的帐号将会传入<font color="#FF6600">[试题信息]</font>的用户帐号处(此处，在<font color="#FF6600">[试题信息]</font>的<font color="#FF6600">[测试者信息设置]</font>处，须勾选<font color="#FF6600">[显示帐号]</font>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <font color="#FF6600">若您勾选了此选项，则测试者可以改变传入的帐号；若未勾选，则测试者不能再更改传入的帐号。此处设置，可以保证通过验证的测试者信息的有效性。</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/userid.bmp" width="358" height="18"><br>
+      <br>
+      &nbsp;&nbsp;&nbsp; <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>网页限制</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      此选项限制了您所出的题必须在此处设定的网站上才能运行。若其选定，且所出的试题不在此网站及其子站上运行时，试题会提示“<font color="#FF6600">请在网站[http://www.myspace.net]上运行此测试题</font>”。此提示信息可在<a href="player.html">播放器</a>的<a href="player_text">字符串设置</a>中的<font color="#FF6600">[网站限制提示]</font>处定义
+      ，其中的“%s”不能被更改。<br>
+      <br>
+      &nbsp;&nbsp;&nbsp; <span lang="EN-US" style="font-family: Wingdings;">&Oslash;</span>&nbsp;&nbsp;<b>有效时期</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      您可以在这里设定当前试题可用的时间区间。您若设定此选项，则试题只能在设定的时间区间中才能提供测试。如果测试者不在设定的时间区间中做题，则试题会提示“<font color="#FF6600">请在日期[2008-03-19]与[2008-03-27]之间进行此测试</font>”，此提示信息可在<a href="player.html">播放器</a>的<a href="player_text.html">字符串设置</a>中的<font color="#FF6600">[日期限制提示]</font>处定义
+      ，其中的“%s”及“%e”不能被更改。<br>
+      <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      如果此处三个选项都被选定，其执行顺序为有效日期-&gt;网页限制-&gt;密码保护，只有全部条件都通过，测试者才能继续做题。</td>
+  </tr>
+</table>
+<script language="javascript" src="copyright.js"></script>
+</body>
+
+</html>
